@@ -17,14 +17,14 @@ public class JoinedTableInheritance {
 		
 		//vehicle 1
 		Vehicale v=new Vehicale();
-		v.setVehicleNo(12345);
+		v.setVehicleNo(123);
 		v.setSpeed(120);
 		v.setPrice(7890000.00f);
 		v.setType("Four-Wheeler");
 		em.persist(v);
 		//create citizen1
 		Vehicale v1=new Vehicale();
-		v1.setVehicleNo(12346);
+		v1.setVehicleNo(12);
 		v1.setSpeed(120);
 		v1.setPrice(7890000.00f);
 		v1.setType("Four-Wheeler");
@@ -35,7 +35,7 @@ public class JoinedTableInheritance {
 				c.setPrice(57000000.0f);
 				c.setSpeed(120);
 				c.setType("Four Wheeler");
-				c.setVehicleNo(9129);
+				c.setVehicleNo(919);
 				em.persist(c);
 		
 		
